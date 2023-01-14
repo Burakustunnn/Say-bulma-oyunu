@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(190, 192, 193);
+}
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://my4kwallpapers.com/wp-content/uploads/2022/01/Harry-Potter-Desktop-Wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* border-radius: 25px; */
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.win {
+  font-size: 2rem;
+}
+.btn {
+  margin-left: 1rem;
+  width: 75px;
+  height: 35px;
+  border: double;
+  border-radius: 50px;
+  background-color: #4158d0;
+  cursor: pointer;
+}
+.input {
+  height: 35px;
+  color: #4158d0;
+  border-radius: 1rem;
+  text-indent: 1rem;
+  outline: none;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  /* margin: 0; */
+}
+
+.bottom {
+  text-align: center;
+  font-size: 2rem;
+}
